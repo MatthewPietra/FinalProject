@@ -1,13 +1,16 @@
 package org.example;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import util.Util;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class Assignment {
     private String assignmentId;
     private String assignmentName;
@@ -25,6 +28,9 @@ public class Assignment {
         this.scores = new ArrayList<>();
     }
 
+    /**
+     * This method calculates the average score for the assignment based on the scores obtained by all students.
+     */
     public void calcAssignmentAvg() {
         int sum = 0;
         for (int score : scores) {
@@ -33,6 +39,10 @@ public class Assignment {
         assignmentAverage = (double) sum / scores.size();
     }
 
+    /**
+     * Generates random scores for each student in the assignment.
+     * @param numStudents the number of students for who scores need to be generated
+     */
     public void generateRandomScore(int numStudents) {
         scores = new ArrayList<>();
         Random random = new Random();
@@ -52,7 +62,7 @@ public class Assignment {
     public String toString() {
         return "Assignment{" +
                 "assignmentId='" + assignmentId + '\'' +
-                ", assignmentName='" + assignmentName + '\'' +
+                ", assignmentName='" + Util.toTitleCase(assignmentName) + '\'' +
                 ", weight=" + weight +
                 ", maxScore=" + maxScore +
                 '}';
