@@ -3,6 +3,7 @@ package org.example;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import util.Util;
 
 @NoArgsConstructor
 @Getter
@@ -25,8 +26,8 @@ public class Department {
     }
 
     /**
-     *
-     * @param departmentName the name of the department
+     * Checks if a department name is valid.
+     * @param departmentName the name of the department to be checked
      * @return true if department name is valid, false if invalid
      */
         public static boolean validateDepartmentName(String departmentName) {
@@ -47,7 +48,7 @@ public class Department {
     public String toString() {
         return "Department{" +
                 "departmentId='" + departmentId + '\'' +
-                ", departmentName='" + departmentName + '\'' +
+                ", departmentName='" + Util.toTitleCase(departmentName) + '\'' +
                 '}';
     }
 }
