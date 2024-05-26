@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66336c78-e784-40c4-be45-b46930d74990" name="Changes" comment="Added documentation for toTitleCase">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/FinalProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2h118qD3X8v1Ru6LFnZT8ThLHuN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "test",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA",
+      "PLAIN_TEXT"
+    ]
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66336c78-e784-40c4-be45-b46930d74990" name="Changes" comment="" />
+      <created>1716746613029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716746613029</updated>
+      <workItem from="1716746614167" duration="16862000" />
+    </task>
+    <task id="LOCAL-00001" summary="Full implementation of Address class">
+      <option name="closed" value="true" />
+      <created>1716746935547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716746935547</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Full implementation of Department class">
+      <option name="closed" value="true" />
+      <created>1716748487298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716748487298</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add enum for Gender">
+      <option name="closed" value="true" />
+      <created>1716749791547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716749791547</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Full implementation of Student class">
+      <option name="closed" value="true" />
+      <created>1716752804374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716752804374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Full implementation of Assignment class">
+      <option name="closed" value="true" />
+      <created>1716752889969</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716752889969</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Full implementation of Util class and package">
+      <option name="closed" value="true" />
+      <created>1716758673788</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716758673788</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added documentation for isPostalCodeValid">
+      <option name="closed" value="true" />
+      <created>1716760286500</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716760286501</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added documentation for validateDepartmentName">
+      <option name="closed" value="true" />
+      <created>1716760305161</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716760305161</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added documentation for registerCourse and dropCourse">
+      <option name="closed" value="true" />
+      <created>1716760337914</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716760337914</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added documentation for generateRandomScore and calcAssignmentAvg">
+      <option name="closed" value="true" />
+      <created>1716760423869</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716760423869</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added documentation for isAssignmentWeightValid, registerStudent, calcStudentsAverage, addAssignment, generateScores and displayScores">
+      <option name="closed" value="true" />
+      <created>1716760490792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716760490792</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added documentation for toTitleCase">
+      <option name="closed" value="true" />
+      <created>1716760508380</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716760508380</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Full implementation of Address class" />
+    <MESSAGE value="Full implementation of Department class" />
+    <MESSAGE value="Add enum for Gender" />
+    <MESSAGE value="Full implementation of Student class" />
+    <MESSAGE value="Full implementation of Assignment class" />
+    <MESSAGE value="Full implementation of Util class and package" />
+    <MESSAGE value="Added documentation for isPostalCodeValid" />
+    <MESSAGE value="Added documentation for validateDepartmentName" />
+    <MESSAGE value="Added documentation for registerCourse and dropCourse" />
+    <MESSAGE value="Added documentation for generateRandomScore and calcAssignmentAvg" />
+    <MESSAGE value="Added documentation for isAssignmentWeightValid, registerStudent, calcStudentsAverage, addAssignment, generateScores and displayScores" />
+    <MESSAGE value="Added documentation for toTitleCase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added documentation for toTitleCase" />
+  </component>
+</project>
