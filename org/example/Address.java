@@ -32,8 +32,8 @@ public class Address {
     }
 
     /**
-     *
-     * @param postalCode the postal code
+     * Checks if a postal code follows the Quebec Standard format.
+     * @param postalCode the postal code to be checked
      * @return returns if a postal code follows Quebec Standard
      */
     public static boolean isPostalCodeValid(String postalCode) {
