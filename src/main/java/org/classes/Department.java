@@ -1,9 +1,9 @@
-package org.example;
+package org.classes;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import util.Util;
+import org.util.Util;
 
 @NoArgsConstructor
 @Getter
@@ -27,23 +27,24 @@ public class Department {
 
     /**
      * Checks if a department name is valid.
+     *
      * @param departmentName the name of the department to be checked
      * @return true if department name is valid, false if invalid
      */
-        public static boolean validateDepartmentName(String departmentName) {
-            if (departmentName == null || departmentName.isEmpty()) {
+    public static boolean validateDepartmentName(String departmentName) {
+        if (departmentName == null || departmentName.isEmpty()) {
+            return false;
+        }
+
+        for (int i = 0; i < departmentName.length(); i++) {
+            char c = departmentName.charAt(i);
+            if (!(c == ' ' || (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))) {
                 return false;
             }
-
-            for (int i = 0; i < departmentName.length(); i++) {
-                char c = departmentName.charAt(i);
-                if (!(c == ' ' || (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))) {
-                    return false;
-                }
-            }
-
-            return true;
         }
+
+        return true;
+    }
     @Override
     public String toString() {
         return "Department{" +
