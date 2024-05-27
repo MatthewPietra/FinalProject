@@ -1,15 +1,15 @@
-package org.example;
+package org.classes;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import util.Util;
-
+import org.util.Util;
 import java.util.ArrayList;
 
 @NoArgsConstructor
 @Getter
 @Setter
+
 public class Student {
     private String studentId;
     private String studentName;
@@ -35,6 +35,7 @@ public class Student {
     /**
      * Registers a course for the student.
      * This method adds the specified course to the student's list of registered courses
+     *
      * @param course the course to be registered by the student
      * @return true if the course was successfully registered, false if the course was already registered
      */
@@ -50,6 +51,7 @@ public class Student {
     /**
      * Drops a course for the student.
      * This method removes the specified course from the student's list of registered courses
+     *
      * @param course the course to be dropped by the student
      * @return true if the course was successfully dropped, false if the course was not registered
      */
@@ -81,7 +83,7 @@ public class Student {
 
         return "Student{" +
                 "studentId=" + studentId +
-                ", name=" + Util.toTitleCase(studentName)  +
+                ", name=" + Util.toTitleCase(studentName) +
                 ", gender=" + gender +
                 ", address=" + address +
                 ", department=" + department.getDepartmentName() +

@@ -1,4 +1,4 @@
-package org.example;
+package org.classes;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -6,11 +6,11 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import util.Util;
+import org.util.Util;
 
 @Getter
 @Setter
-@NoArgsConstructor
+
 public class Assignment {
     private String assignmentId;
     private String assignmentName;
@@ -25,6 +25,10 @@ public class Assignment {
         this.assignmentName = assignmentName;
         this.weight = weight;
         this.maxScore = maxScore;
+        this.scores = new ArrayList<>();
+    }
+
+    public Assignment() {
         this.scores = new ArrayList<>();
     }
 
@@ -58,6 +62,14 @@ public class Assignment {
             scores.add(score);
         }
     }
+
+    public void addScore(int num) {
+        scores.add(num);
+    }
+    public double getAssignmentAverage() {
+        return this.assignmentAverage;
+    }
+
     @Override
     public String toString() {
         return "Assignment{" +

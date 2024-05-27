@@ -1,4 +1,4 @@
-package org.example;
+package org.classes;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,6 +8,7 @@ import java.util.List;
 
 @Getter
 @Setter
+
 public class Course {
     private String courseId;
     private String courseName;
@@ -27,8 +28,10 @@ public class Course {
         this.registeredStudents = new ArrayList<>();
         this.finalScores = new ArrayList<>();
     }
+
     /**
      * Checks if the sum of weights of all assignments of the course equals 1 (100%).
+     *
      * @return true if the sum of weights of all assignments equals 1, false otherwise
      */
     public boolean isAssignmentWeightValid() {
@@ -38,8 +41,10 @@ public class Course {
         }
         return Math.abs(totalWeight - 1) < 0.0001;
     }
+
     /**
      * Registers a student for the course.
+     *
      * @param student the student to be registered for the course
      * @return true since the student is successfully registered for the course
      */
@@ -54,6 +59,7 @@ public class Course {
 
     /**
      * Calculates the weighted average score of each student in the course.
+     *
      * @return an array containing the weighted average score of each student
      */
     public int[] calcStudentsAverage() {
@@ -67,11 +73,13 @@ public class Course {
         }
         return averages;
     }
+
     /**
      * Adds a new assignment to the course with a specified name, weight, and maximum score
+     *
      * @param assignmentName the name of the new assignment
-     * @param weight the weight of the new assignment
-     * @param maxScore the maximum score of the new assignment
+     * @param weight         the weight of the new assignment
+     * @param maxScore       the maximum score of the new assignment
      * @return true if the new assignment was successfully added and the assignment weights are valid, false otherwise
      */
     public boolean addAssignment(String assignmentName, double weight, int maxScore) {
@@ -98,6 +106,7 @@ public class Course {
             finalScores.add(totalScore / assignments.size());
         }
     }
+
     /**
      * This method prints a table showing the scores of all students enrolled in the course
      * It also calculates and displays the average score for each assignment.

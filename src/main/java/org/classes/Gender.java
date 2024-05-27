@@ -1,4 +1,4 @@
-package org.example;
+package org.classes;
 
 public enum Gender {
     MALE, FEMALE
